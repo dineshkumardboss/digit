@@ -1,3 +1,6 @@
 //library 'ci-libs'
-@library ('ci-libs')_
-buildPipeline(configFile: './build/build-config.yml')
+//@library ('ci-libs')_
+//buildPipeline(configFile: './build/build-config.yml')
+libraries {
+  lib('pipeline-library-demo')
+}
