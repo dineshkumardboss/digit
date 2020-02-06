@@ -2,5 +2,5 @@
 //libraries {
   //lib('ci-libs')
 //}
-@Library('pipeline-library-demo')
+@Library('ci-libs')
 //buildPipeline(configFile: './build/build-config.yml')
